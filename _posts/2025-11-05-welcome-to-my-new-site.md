@@ -10,7 +10,7 @@ Welcome to my new personal website! I've moved from my old site at leekandpickle
 
 I wanted a cleaner, more streamlined web presence that better reflects where I am in my career. As the co-founder and CEO of Critical Path Games, I wanted a platform where I could share thoughts about game development, leadership, and the industry.
 
-![Jesse Houston](/assets/images/jesse-houston.jpg)
+![Jesse Houston](/assets/images/dj-gtez.jpg)
 
 ## What to Expect
 
