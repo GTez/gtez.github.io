@@ -7,7 +7,6 @@ url: "http://gtez.com"
 
 # Build settings
 markdown: kramdown
-theme: minima
 permalink: /blog/:year/:month/:day/:title/
 
 # Collections
