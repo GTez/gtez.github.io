@@ -2,8 +2,9 @@
 title: Getting Shit Done
 email: website@gtez.org
 description: Jesse Houston's personal website and blog
-baseurl: ""
+baseurl: "/gtez.github.io/"
 url: "http://gtez.com"
+domain: "gtez.github.io"
 
 # Build settings
 markdown: kramdown
