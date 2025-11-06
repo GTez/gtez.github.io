@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Welcome to My New Site"
-date: 2025-11-06
+date: 2025-11-05
 ---
 
 Welcome to my new personal website! I've moved from my old site at leekandpickle.com to this new home at gtez.com.
