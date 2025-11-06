@@ -27,6 +27,9 @@ default_image: /assets/images/jesse-houston.jpg
 # Language
 lang: en
 
+# Google Analytics
+google_analytics: G-CJLFNZFHEL
+
 # Build settings
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title/
