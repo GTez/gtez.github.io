@@ -14,6 +14,8 @@ This site is built with Jekyll and hosted on GitHub Pages, making it simple to m
 
 I wanted a cleaner, more streamlined web presence that better reflects where I am in my career. As the co-founder and CEO of Critical Path Games, I wanted a platform where I could share thoughts about game development, leadership, and the industry.
 
+![Jesse Houston](/assets/images/jesse-houston.jpg)
+
 ## What to Expect
 
 I'll be sharing updates about:
