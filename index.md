@@ -4,7 +4,7 @@ title: Home
 ---
 
 <div class="home-simple">
-  <img src="GSD.png" alt="Get Shit Done" class="gsd-image">
+  <h1 class="gsd-text">GET<br>SHIT<br>DONE</h1>
 
   <nav class="home-links">
     <a href="{{ '/about' | relative_url }}">About Me</a>

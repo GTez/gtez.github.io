@@ -12,32 +12,38 @@ Jesse Houston is a long time veteran of the video game industry whose career has
 
 ## Current Role
 
-Jesse serves as Co-Founder and CEO of Critical Path Games, established in 2024.
+Jesse serves as Co-Founder and CEO of **Critical Path Games**, established in 2024.
 
-## Phoenix Labs Experience
+## Phoenix Labs Era
 
-Previously, he co-founded Phoenix Labs in 2014 and served as CEO. During his tenure, he:
+As former CEO of **Phoenix Labs** (co-founded 2014), he oversaw the globally recognized free-to-play action-hunting title **Dauntless** and scaled operations to support five simultaneous game developments, including **Fae Farm**.
 
-- Directed Dauntless, the globally acclaimed, free-to-play, action-hunting game
-- Expanded the company to manage five simultaneous game development projects
-- Oversaw the release of Fae Farm, a cozy farm-simulation RPG
+### Phoenix Labs Achievements
 
-Key achievements at Phoenix Labs included winning "Best Places To Work" awards in 2021-2022 and growing the company to over 325 team members across four studios before its acquisition by Garena.
+- Won "Best Places To Work" awards (2021, 2022)
+- Dauntless achieved highest Metacritic rating for F2P launches
+- First game with full cross-platform console play
+- Reached 30+ million players within first year
+- Acquired by Garena in major Canadian gaming acquisition
+- Expanded to 325+ employees across 4 studios
+- Fae Farm launched September 2023 to positive reception
 
 ## Career Progression
 
-His professional path included roles at:
+**Electronic Arts**: Began as a tester on the FIFA franchise, developing foundational game mechanics knowledge.
 
-**Electronic Arts**: Game tester on FIFA
+**Ubisoft**: Held multiple positions including Environment Artist, Technical Artist, Programmer, and Technical Director. Contributed to Splinter Cell, Rainbow Six, and Surf's Up franchises.
 
-**Ubisoft**: Multiple positions (Environment Artist, Technical Artist, Programmer, Technical Director) contributing to Splinter Cell, Rainbow Six, and Surf's Up
+**BioWare**: Served as Lead Producer for the Mass Effect trilogy, focusing on narrative and world-building integration across design, art, and engineering teams.
 
-**BioWare**: Lead Producer for the Mass Effect trilogy
+**Riot Games**: Led League of Legends during its growth into a multi-billion dollar platform connecting hundreds of millions of players and catalyzing global eSports expansion.
 
-**Riot Games**: Leadership position overseeing League of Legends' expansion
+## Community Involvement
 
-## Philanthropy
+Serves on **Science World's** board since 2021 (currently Secretary). Has chaired committees focused on fundraising, strategic revenue, and executive matters.
 
-Houston serves on the Science World board since 2021 as Secretary, emphasizing his commitment to STEM education initiatives.
+## Vision
+
+Houston aspires to enrich lives through building fantastic teams, who make deep multiplayer games that bring people together around the world.
 
 </div>
