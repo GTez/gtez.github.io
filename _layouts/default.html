@@ -1,10 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.lang | default: 'en' }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <meta name="title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}">
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="author" content="{{ site.author.name }}">
+    <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}Jesse Houston, gaming industry, game development, Critical Path Games, Phoenix Labs, BioWare, Riot Games, Mass Effect, League of Legends, Dauntless{% endif %}">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:image" content="{% if page.image %}{{ page.image | absolute_url }}{% else %}{{ site.default_image | absolute_url }}{% endif %}">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:locale" content="en_US">
+    {% if page.layout == 'post' %}
+    <meta property="article:author" content="{{ site.author.name }}">
+    <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+    {% endif %}
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}">
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="twitter:image" content="{% if page.image %}{{ page.image | absolute_url }}{% else %}{{ site.default_image | absolute_url }}{% endif %}">
+    {% if site.author.twitter %}
+    <meta name="twitter:creator" content="@{{ site.author.twitter }}">
+    {% endif %}
+
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "{{ site.author.name }}",
+      "url": "{{ site.url }}",
+      "email": "{{ site.author.email }}",
+      "image": "{{ site.default_image | absolute_url }}",
+      "jobTitle": "Co-Founder and CEO",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Critical Path Games",
+        "url": "https://critpath.com"
+      },
+      "alumniOf": [
+        {
+          "@type": "Organization",
+          "name": "Phoenix Labs"
+        },
+        {
+          "@type": "Organization",
+          "name": "Riot Games"
+        },
+        {
+          "@type": "Organization",
+          "name": "BioWare"
+        },
+        {
+          "@type": "Organization",
+          "name": "Ubisoft"
+        },
+        {
+          "@type": "Organization",
+          "name": "Electronic Arts"
+        }
+      ],
+      "sameAs": [
+        "https://twitter.com/{{ site.author.twitter }}",
+        "https://www.linkedin.com/in/{{ site.author.linkedin }}"
+      ],
+      "description": "Gaming industry leader, co-founder of Critical Path Games and Phoenix Labs, former BioWare and Riot Games executive with a track record of shipping successful titles including Mass Effect trilogy, League of Legends, and Dauntless."
+    }
+    </script>
+    {% if page.layout == 'post' %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "{{ page.title }}",
+      "description": "{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% endif %}",
+      "image": "{% if page.image %}{{ page.image | absolute_url }}{% else %}{{ site.default_image | absolute_url }}{% endif %}",
+      "author": {
+        "@type": "Person",
+        "name": "{{ site.author.name }}",
+        "url": "{{ site.url }}"
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": "{{ site.author.name }}",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{ site.default_image | absolute_url }}"
+        }
+      },
+      "datePublished": "{{ page.date | date_to_xmlschema }}",
+      "dateModified": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% else %}{{ page.date | date_to_xmlschema }}{% endif %}",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ page.url | replace:'index.html','' | absolute_url }}"
+      }
+    }
+    </script>
+    {% endif %}
 </head>
 <body class="{% if page.url == '/' %}page-home{% endif %}">
     <header>

@@ -2,6 +2,9 @@
 layout: default
 title: About
 permalink: /about/
+description: Jesse Houston is a gaming industry veteran and CEO of Critical Path Games. Former co-founder of Phoenix Labs (Dauntless, Fae Farm), BioWare Lead Producer (Mass Effect trilogy), and Riot Games leader (League of Legends). Board member of Science World.
+keywords: Jesse Houston, Critical Path Games, Phoenix Labs, BioWare, Mass Effect, Riot Games, League of Legends, Dauntless, Fae Farm, game industry CEO, video game producer
+image: /assets/images/jesse-houston.jpg
 ---
 
 <div class="about-header">
