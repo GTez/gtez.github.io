@@ -12,7 +12,7 @@ permalink: /about/
 
 Jesse Houston is a long time veteran of the video game industry whose career has been marked by a diverse range of roles and an unwavering commitment to people, innovation, and quality.
 
-Jesse currently is the Co-Founder and CEO of Critical Path Games, which he founded in 2024.
+Jesse currently is the Co-Founder and CEO of [Critical Path Games](https://critpath.com/), which he co-founded in 2024.
 
 In his most recent role as CEO of Phoenix Labs - a studio he co-founded in 2014 - he directed the globally acclaimed, free-to-play, action-hunting game, Dauntless. He then scaled the company to enable developing five games simultaneously, including the recently released to rave reviews, Fae Farm.
 
@@ -51,7 +51,7 @@ Houston then went on to helm Riot Games' League of Legends. Under his stewardshi
 
 During his tenure as Co-Founder and CEO of Phoenix Labs from 2014 to 2023, Houston had a number of considerable successes. Phoenix Labs won GamesIndustry.biz's "Best Places To Work" prize in 2021 and 2022 for both the USA and Canada. The company's first title, Dauntless, was met with worldwide acclaim, having released with the highest Metacritic rating of any F2P game at launch. Being the first game to ever launch with full cross platform play across all major consoles, Dauntless was able to grow to over 30 million players in its first year alone.
 
-Phoenix Labs' journey reached a significant milestone when it was sold to Garena in one of the largest video game company acquisitions in Canadian history. In the years that followed, he grew the company to over 325 team members across 4 studios, with an average of 5 games in development. Phoenix Labs' second game, Fae Farm, a cozy farm-sim RPG, launched in September of 2023 to rave reviews. As Houston looks to the future, he has transitioned away from CEO to an advisory role and continues to support the team as they look towards new horizons in gaming.
+Phoenix Labs' journey reached a significant milestone when it was sold to Garena in one of the largest video game company acquisitions in Canadian history. In the years that followed, he grew the company to over 325 team members across 4 studios, with an average of 5 games in development. Phoenix Labs' second game, Fae Farm, a cozy farm-sim RPG, launched in September of 2023 to rave reviews. 
 
 <figure class="about-image">
   <img src="{{ '/assets/images/science-world.png' | relative_url }}" alt="Science World">
