@@ -2,6 +2,10 @@
 layout: post
 title: "Welcome to My New Site"
 date: 2025-11-05
+description: Welcome to Jesse Houston's new website at gtez.com. Learn about the transition from leekandpickle.com and what to expect - game industry insights, leadership experiences, and technical deep dives on game development.
+keywords: Jesse Houston, gtez.com, new website, game development blog, Critical Path Games, gaming industry insights
+image: /assets/images/dj-gtez.jpg
+categories: [announcements, personal]
 ---
 
 Welcome to my new personal website! I've moved from my old site at leekandpickle.com to this new home at gtez.com.

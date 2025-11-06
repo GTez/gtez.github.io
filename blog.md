@@ -2,6 +2,9 @@
 layout: default
 title: Blog
 permalink: /blog/
+description: Jesse Houston's blog on game development, leadership, building teams, and the gaming industry. Insights from a veteran CEO and co-founder with experience at BioWare, Riot Games, and Phoenix Labs.
+keywords: game development blog, gaming industry insights, leadership, team building, Jesse Houston blog, video game development
+image: /assets/images/jesse-houston.jpg
 ---
 
 # Blog

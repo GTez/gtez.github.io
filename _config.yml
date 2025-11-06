@@ -1,14 +1,41 @@
 # Site settings
 title: Getting Shit Done
 email: website@gtez.org
-description: Jesse Houston's personal website and blog
-baseurl: "/gtez.github.io/"
-url: "http://gtez.com"
-domain: "gtez.github.io"
+description: Jesse Houston's personal website and blog - Gaming industry leader, co-founder of Critical Path Games and Phoenix Labs, former BioWare and Riot Games executive.
+baseurl: ""
+url: "https://gtez.com"
+domain: "gtez.com"
+
+# Author information (for SEO and structured data)
+author:
+  name: Jesse Houston
+  email: website@gtez.org
+  twitter: gtez
+  linkedin: jessewhouston
+
+# SEO settings
+logo: /assets/images/jesse-houston.jpg
+social:
+  name: Jesse Houston
+  links:
+    - https://twitter.com/gtez
+    - https://www.linkedin.com/in/jessewhouston
+
+# Default meta image for social sharing
+default_image: /assets/images/jesse-houston.jpg
+
+# Language
+lang: en
 
 # Build settings
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title/
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
 
 # Collections
 collections:
