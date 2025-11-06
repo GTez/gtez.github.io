@@ -29,6 +29,11 @@ body {
     padding: 0 20px;
 }
 
+/* Hide header on home page */
+.page-home header {
+    display: none;
+}
+
 /* Header and Navigation */
 header {
     background-color: var(--bg-primary);
@@ -294,6 +299,17 @@ footer p {
 }
 
 /* About page specific */
+.about-header {
+    margin: -2rem -20px 3rem -20px;
+    overflow: hidden;
+}
+
+.about-header img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 .about-section {
     margin-bottom: 2.5rem;
 }

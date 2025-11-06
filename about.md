@@ -4,6 +4,10 @@ title: About
 permalink: /about/
 ---
 
+<div class="about-header">
+  <img src="{{ '/assets/images/header.jpeg' | relative_url }}" alt="Jesse Houston">
+</div>
+
 # About Jesse
 
 Jesse Houston is a long time veteran of the video game industry whose career has been marked by a diverse range of roles and an unwavering commitment to people, innovation, and quality.
