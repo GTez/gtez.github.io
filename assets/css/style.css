@@ -319,6 +319,45 @@ footer p {
     font-weight: 600;
 }
 
+.about-image {
+    margin: 3rem 0;
+    text-align: center;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid var(--border);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.about-image img:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 30px rgba(139, 149, 86, 0.3);
+}
+
+.about-image figcaption {
+    margin-top: 1rem;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    font-style: italic;
+    letter-spacing: 0.02em;
+}
+
+.about-vision {
+    margin-top: 3rem;
+    padding: 2rem;
+    background: linear-gradient(135deg, rgba(139, 149, 86, 0.1), rgba(212, 175, 55, 0.1));
+    border-left: 4px solid var(--goose-green);
+    border-radius: 4px;
+    font-size: 1.15rem;
+    line-height: 1.8;
+    font-style: italic;
+    color: var(--text-primary);
+}
+
 /* Home page */
 .home-simple {
     display: flex;

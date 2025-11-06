@@ -6,44 +6,59 @@ permalink: /about/
 
 # About Jesse
 
-<div class="about-section">
-
 Jesse Houston is a long time veteran of the video game industry whose career has been marked by a diverse range of roles and an unwavering commitment to people, innovation, and quality.
 
-## Current Role
+Jesse currently is the Co-Founder and CEO of Critical Path Games, which he founded in 2024.
 
-Jesse serves as Co-Founder and CEO of **Critical Path Games**, established in 2024.
+In his most recent role as CEO of Phoenix Labs - a studio he co-founded in 2014 - he directed the globally acclaimed, free-to-play, action-hunting game, Dauntless. He then scaled the company to enable developing five games simultaneously, including the recently released to rave reviews, Fae Farm.
 
-## Phoenix Labs Era
+<figure class="about-image">
+  <img src="{{ '/assets/images/dauntless.jpg' | relative_url }}" alt="Dauntless, Phoenix Labs' First Title">
+  <figcaption>Dauntless, Phoenix Labs' First Title</figcaption>
+</figure>
 
-As former CEO of **Phoenix Labs** (co-founded 2014), he oversaw the globally recognized free-to-play action-hunting title **Dauntless** and scaled operations to support five simultaneous game developments, including **Fae Farm**.
+Houston began his professional journey at Electronic Arts, as a tester on the well-known FIFA franchise. This early role provided him with fundamental insights into game mechanics and fostered a detailed-oriented approach.
 
-### Phoenix Labs Achievements
+<figure class="about-image">
+  <img src="{{ '/assets/images/splinter-cell.png' | relative_url }}" alt="Splinter Cell">
+  <figcaption>Splinter Cell</figcaption>
+</figure>
 
-- Won "Best Places To Work" awards (2021, 2022)
-- Dauntless achieved highest Metacritic rating for F2P launches
-- First game with full cross-platform console play
-- Reached 30+ million players within first year
-- Acquired by Garena in major Canadian gaming acquisition
-- Expanded to 325+ employees across 4 studios
-- Fae Farm launched September 2023 to positive reception
+From there, Houston moved to Ubisoft where his tenure was marked by a variety of positions including Environment Artist, Technical Artist, Programmer, and ultimately, Technical Director. During that time, he gained a deep understanding of the technical aspects of game development, while contributing to franchises like Splinter Cell, Rainbow Six, and Surf's Up.
 
-## Career Progression
+<figure class="about-image">
+  <img src="{{ '/assets/images/mass-effect.png' | relative_url }}" alt="Mass Effect 3 at the Microsoft E3 Press Conference 2011">
+  <figcaption>Mass Effect 3 at the Microsoft E3 Press Conference 2011</figcaption>
+</figure>
 
-**Electronic Arts**: Began as a tester on the FIFA franchise, developing foundational game mechanics knowledge.
+Following Ubisoft, Houston moved to BioWare, a company noted for its world class RPGs. Houston joined to be the Lead Producer for the Mass Effect trilogy, renowned for its narrative depth and complex world-building. He played a pivotal role in bridging design, art, and engineering to develop the series. His time in leadership at BioWare taught him the power of highly connected teams being able to deliver high-quality games, and it cemented his belief on the impact of multiplayer and digital story-telling.
 
-**Ubisoft**: Held multiple positions including Environment Artist, Technical Artist, Programmer, and Technical Director. Contributed to Splinter Cell, Rainbow Six, and Surf's Up franchises.
+<figure class="about-image">
+  <img src="{{ '/assets/images/league-esports.png' | relative_url }}" alt="League of Legends 2013 World Championships">
+  <figcaption>League of Legends 2013 World Championships</figcaption>
+</figure>
 
-**BioWare**: Served as Lead Producer for the Mass Effect trilogy, focusing on narrative and world-building integration across design, art, and engineering teams.
+Houston then went on to helm Riot Games' League of Legends. Under his stewardship, the game grew into a multi-billion dollar juggernaut, connecting hundreds of millions of players, and leading to the ascension of eSports as a global entertainment industry.
 
-**Riot Games**: Led League of Legends during its growth into a multi-billion dollar platform connecting hundreds of millions of players and catalyzing global eSports expansion.
+<figure class="about-image">
+  <img src="{{ '/assets/images/phoenix-labs-years.png' | relative_url }}" alt="Phoenix Labs over the years">
+  <figcaption>Phoenix Labs over the years</figcaption>
+</figure>
 
-## Community Involvement
+During his tenure as Co-Founder and CEO of Phoenix Labs from 2014 to 2023, Houston had a number of considerable successes. Phoenix Labs won GamesIndustry.biz's "Best Places To Work" prize in 2021 and 2022 for both the USA and Canada. The company's first title, Dauntless, was met with worldwide acclaim, having released with the highest Metacritic rating of any F2P game at launch. Being the first game to ever launch with full cross platform play across all major consoles, Dauntless was able to grow to over 30 million players in its first year alone.
 
-Serves on **Science World's** board since 2021 (currently Secretary). Has chaired committees focused on fundraising, strategic revenue, and executive matters.
+Phoenix Labs' journey reached a significant milestone when it was sold to Garena in one of the largest video game company acquisitions in Canadian history. In the years that followed, he grew the company to over 325 team members across 4 studios, with an average of 5 games in development. Phoenix Labs' second game, Fae Farm, a cozy farm-sim RPG, launched in September of 2023 to rave reviews. As Houston looks to the future, he has transitioned away from CEO to an advisory role and continues to support the team as they look towards new horizons in gaming.
 
-## Vision
+<figure class="about-image">
+  <img src="{{ '/assets/images/science-world.png' | relative_url }}" alt="Science World">
+  <figcaption>Science World</figcaption>
+</figure>
 
-Houston aspires to enrich lives through building fantastic teams, who make deep multiplayer games that bring people together around the world.
+In addition to spending time with family, Houston dedicates much of his non-work hours to charitable endeavours, especially those that reinforce his commitment to STEM education. He has served on the board of Science World since 2021, currently in the role as Secretary. He has also served as chair on various committees such as Fundraising and Development, Strategic Revenue, and the Executive Committee.
 
-</div>
+<figure class="about-image">
+  <img src="{{ '/assets/images/fae-farm.png' | relative_url }}" alt="Playing Together In Fae Farm">
+  <figcaption>Playing Together In Fae Farm</figcaption>
+</figure>
+
+<p class="about-vision">Houston aspires to enrich lives through building fantastic teams, who make deep multiplayer games that bring people together around the world.</p>
