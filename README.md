@@ -96,7 +96,7 @@ function example() {
 Before pushing, you can preview locally:
 
 ```bash
-jekyll serve --host=0.0.0.0
+bundle exec jekyll serve
 ```
 
 Visit `http://localhost:4000` in your browser. The site will auto-reload when you save changes.
@@ -162,46 +162,54 @@ git push
 
 ### First Time Setup
 
-1. Install Ruby (if not installed):
-   - **Mac:** `brew install ruby` or use rbenv
-   - **Linux:** `sudo apt-get install ruby-full` or use rbenv
+1. Install Ruby. The version is pinned in `.ruby-version` (currently 3.3.0), so
+   rbenv is the easiest route:
+   - **Mac:** `brew install rbenv` then `rbenv install` (reads `.ruby-version`)
+   - **Linux:** install rbenv, then `rbenv install`
 
-2. Install Jekyll:
+2. Install the site's gems:
    ```bash
-   gem install bundler jekyll
+   gem install bundler
+   bundle install
    ```
+
+   This installs the `github-pages` gem, which brings Jekyll and every plugin the
+   live site uses. **Skipping `bundle install` is the usual reason local builds
+   fail** with `Could not find gem 'github-pages'`.
 
 ### Running Locally
 
 ```bash
-# Navigate to the site directory
 cd ~/path/to/gtez.github.io
 
-# Start the server
-jekyll serve --host=0.0.0.0
-
-# Or if you have a Gemfile:
-bundle exec jekyll serve --host=0.0.0.0
+bundle exec jekyll serve
 ```
 
 Visit `http://localhost:4000` in your browser.
 
 **The server will auto-reload when you save changes!**
 
+Always prefix commands with `bundle exec`. A bare `jekyll` may pick up a different,
+newer Jekyll than the one GitHub Pages actually builds with (3.10.x), so what you
+see locally would not match production.
+
 ### Common Jekyll Commands
 
 ```bash
 # Serve with drafts visible
-jekyll serve --drafts
-
-# Serve and watch for changes
-jekyll serve --watch
+bundle exec jekyll serve --drafts
 
 # Build without serving
-jekyll build
+bundle exec jekyll build
+
+# Build exactly the way CI does (enables Google Analytics)
+JEKYLL_ENV=production bundle exec jekyll build
 
 # Clean generated files
-jekyll clean
+bundle exec jekyll clean
+
+# Update gems after GitHub Pages bumps a dependency
+bundle update
 ```
 
 **Note:** Local preview is completely optional! You can write and publish posts without ever running Jekyll locally - GitHub builds automatically.
@@ -306,9 +314,10 @@ You can use any text editor, but these make writing easier:
 - Hard refresh your browser (Ctrl+F5 or Cmd+Shift+R)
 
 ### Jekyll won't start locally
-- Make sure Ruby is installed: `ruby --version`
-- Install Jekyll: `gem install jekyll bundler`
-- Try: `bundle install` then `bundle exec jekyll serve`
+- `Could not find gem 'github-pages'` - you skipped setup. Run `bundle install`.
+- Make sure Ruby is installed and matches `.ruby-version`: `ruby --version`
+- Install bundler if missing: `gem install bundler`
+- Then: `bundle install` and `bundle exec jekyll serve`
 
 ## Design & Colors
 
@@ -326,6 +335,6 @@ To modify colors, edit `assets/css/style.css` and change the CSS variables at th
 - **Domain:** gtez.com (managed via Cloudflare)
 - **Hosting:** GitHub Pages (free, automatic)
 - **SSL:** Automatic via GitHub Pages
-- **Builds:** Automatic on every push to main branch
+- **Builds:** Automatic on every push to the `main` branch
 
 The CNAME file tells GitHub which domain to use.

@@ -1,10 +1,11 @@
 source "https://rubygems.org"
 
-# GitHub Pages gem includes Jekyll and all necessary dependencies
+# GitHub Pages gem includes Jekyll and all necessary dependencies.
+# It pins Jekyll to 3.10.x — always run via `bundle exec`, never a bare `jekyll`.
 gem "github-pages", group: :jekyll_plugins
 
-# Optional: Windows and JRuby does not include zoneinfo files
-gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+# Windows and JRuby do not include zoneinfo files
+gem "tzinfo-data", platforms: [:windows, :jruby]
 
 # Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.1", platforms: [:mingw, :x64_mingw, :mswin]
+gem "wdm", "~> 0.1.1", platforms: [:windows]

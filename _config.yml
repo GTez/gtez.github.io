@@ -49,6 +49,7 @@ collections:
 # Exclude files from processing
 exclude:
   - README.md
+  - CLAUDE.md
   - Gemfile
   - Gemfile.lock
   - vendor
