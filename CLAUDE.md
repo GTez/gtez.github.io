@@ -112,9 +112,10 @@ generates `/sitemap.xml`, which `robots.txt` points at.
 If you change the JSON-LD (`worksFor`, `alumniOf`, `jobTitle`), keep it consistent
 with the prose in `about.md`.
 
-Known quirk: `robots.txt` has `Disallow: /assets/`, which blocks crawlers from the
-images referenced by the Open Graph and Twitter card tags. Flag it if touching SEO;
-don't change it unprompted.
+`robots.txt` is static (no front matter, so no Liquid). It allows everything and
+points at the sitemap. It previously carried `Disallow: /assets/`, which blocked
+crawlers from both the Open Graph/Twitter card images and `style.css`; that was
+removed, so don't reintroduce a blanket `/assets/` block.
 
 ## Styling
 

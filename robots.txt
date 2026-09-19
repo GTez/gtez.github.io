@@ -1,9 +1,6 @@
 # robots.txt for gtez.com
 User-agent: *
 Allow: /
-Disallow: /assets/
-Disallow: /.git/
-Disallow: /vendor/
 
 # Sitemap location
 Sitemap: https://gtez.com/sitemap.xml
